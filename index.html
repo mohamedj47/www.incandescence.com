@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقعي الشخصي</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>مرحبًا بكم في موقعي الشخصي</h1>
+    </header>
+    <section>
+        <h2>عنّي</h2>
+        <p>اسمي محمد، وأنا مهتم بالبيع بنظام الدروب شيبينج.</p>
+    </section>
+    <section>
+        <h2>اتصل بي</h2>
+        <form action="https://formspree.io/your-email@example.com" method="POST">
+            <label for="name">الاسم:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">البريد الإلكتروني:</label>
+            <input type="email" id="email" name="_replyto" required>
+            <label for="message">رسالة:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">إرسال</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 محمد</p>
+    </footer>
+</body>
+</html>
